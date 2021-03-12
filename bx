@@ -1,0 +1,6 @@
+##/bin/bash
+if  screen -list | grep -q "BitchX"; then
+    screen -xS BitchX
+else
+screen -S BitchX /jffs/BitchX
+fi
